@@ -1,0 +1,143 @@
+body {
+  background-color: #f1f1f1;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+#produtos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.produto {
+  width: 250px;
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.produto:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+.produto img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.produto h3 {
+  margin: 10px 0;
+  font-size: 1.2em;
+  text-align: center;
+  color: #f77f00;
+}
+
+.produto p {
+  margin: 10px 0;
+  font-size: 1.2em;
+  text-align: center;
+  color: #333;
+}
+
+.botao-adicionar {
+  display: block;
+  margin: 10px auto;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f77f00;
+  color: #fff;
+  font-size: 1.2em;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.botao-adicionar:hover {
+  background-color: #00529b;
+}
+/* Definindo estilos para o cabeçalho */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  }
+  
+  h1 {
+  margin: 0;
+  }
+  /* Definindo estilos para o cabeçalho */
+header {
+  background-color: #FFA500;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  }
+  
+  h1 {
+  margin: 0;
+  }
+  
+  /* Definindo estilos para o conteúdo principal */
+  main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+  }
+  
+  #produtos {
+  flex-grow: 1;
+  margin-right: 20px;
+  }
+  
+  #produtos h2 {
+  margin-top: 0;
+  }
+  
+  #produtos ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  }
+  
+  #produtos li {
+  margin-bottom: 10px;
+  }
+  
+  #produtos img {
+  width: 100%;
+  height: auto;
+  }
+  
+  #carrinho {
+  flex-basis: 200px;
+  }
+  
+  #total-carrinho {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-top: 10px;
+  }
+  
+  #botao-finalizar-compra {
+  background-color: #008CBA;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  border-radius: 5px;
+  cursor: pointer;
+  }
+  
+  #botao-finalizar-compra:hover {
+  background-color: #005F6B;
+  }
